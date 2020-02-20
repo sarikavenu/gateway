@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://172.30.48.195:8761/eureka/
+server:
+  port: 9090
+
+zuul:
+  routes:
+    helloservice:
+      serviceId: helloservice
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
