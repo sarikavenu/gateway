@@ -9,6 +9,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 public class GatewayService {
 
   public static void main(String[] args) {
+    System.out.println("Gateway Modified Venu");
     SpringApplication.run(GatewayService.class, args);
   }
 
