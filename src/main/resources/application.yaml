@@ -12,6 +12,8 @@ zuul:
   routes:
     helloservice:
       serviceId: helloservice
+      path: /helloservice/**
+      url: http://helloservice:8000/
 management:
   endpoints:
     web:
