@@ -10,6 +10,11 @@ server:
 
 zuul:
   routes:
+    heroservice:
+      path: /heroservice/**
+      url: http://172.30.227.38:9000/
+zuul:
+  routes:
     helloservice:
       path: /helloservice/**
       url: http://172.30.242.169:8000/
