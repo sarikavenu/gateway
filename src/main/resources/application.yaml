@@ -12,7 +12,7 @@ zuul:
   routes:
     helloservice:
       path: /helloservice/**
-      url: http://HELLOSERVICE:8000/
+      url: http://172.30.242.169:8000/
 management:
   endpoints:
     web:
