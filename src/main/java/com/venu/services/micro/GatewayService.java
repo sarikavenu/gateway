@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 public class GatewayService {
 
   public static void main(String[] args) {
-    System.out.println("Gateway Enabled CORS Venu1");
+    System.out.println("CORS Enabled in Gateway");
     SpringApplication.run(GatewayService.class, args);
   }
 
